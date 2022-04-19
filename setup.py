@@ -3,7 +3,9 @@ setup(
     name="nubcrypt",
     version="0.0.1",
     description="Data encryption",
+    long_description=open("README.md").read(),
     author="Anggi Kharisma Putra",
+    license="MIT",
     author_email="anggikharismaputra@gmail.com",
     url="https://github.com/nubcakee/nubcrypt",
     packages = find_packages(),
@@ -14,4 +16,5 @@ setup(
             sources=["nubcrypt/core/_core.pyx"]
         )
     ],
+    keywords=["encryption", "data-encryption", "cryptography"]
 )
