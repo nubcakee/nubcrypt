@@ -6,7 +6,7 @@ Python data encryption tools
 
 ## Common Usages
 ```python
-import nubcrypt a nbx
+import nubcrypt as nbx
 
 filetarget = "testfile.txt"
 key = "secret key"
@@ -16,5 +16,5 @@ outfile = filetarget + ".nubx"
 nbx.encrypt_file(filetarget, key, outfile)
 
 #encrypt a bytes
-nubx_bytes = nubcrypt.encrypt_string("encrypt this text".encode(), key)
+nbx_bytes = nbx.encrypt_bytes("encrypt this text".encode(), key)
 ```
