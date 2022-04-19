@@ -5,6 +5,7 @@ setup(
     description="Data encryption",
     author="Anggi Kharisma Putra",
     author_email="anggikharismaputra@gmail.com",
+    url="https://github.com/nubcakee/nubcrypt",
     packages = find_packages(),
     setup_requires=["cython"],
     ext_modules= [
