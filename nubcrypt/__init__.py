@@ -1,1 +1,2 @@
-from .__nubcrypt import *
+from .core import *
+del core

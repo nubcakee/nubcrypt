@@ -9,8 +9,8 @@ setup(
     setup_requires=["cython"],
     ext_modules= [
         Extension(
-            'nubcrypt._core._core',
-            sources=["nubcrypt/_core/_core.pyx"]
+            'nubcrypt.core._core',
+            sources=["nubcrypt/core/_core.pyx"]
         )
     ],
 )
