@@ -4,6 +4,7 @@ setup(
     version="0.0.1",
     description="Data encryption",
     long_description=open("README.md").read(),
+    long_description_content_type='text/markdown',
     author="Anggi Kharisma Putra",
     license="MIT",
     author_email="anggikharismaputra@gmail.com",

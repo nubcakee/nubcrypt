@@ -2,7 +2,7 @@
 Python data encryption tools
 
 ## Install
-``pip install nubcrypt``
+```pip3 install nubcrypt```
 
 ## Common Usages
 ```python
